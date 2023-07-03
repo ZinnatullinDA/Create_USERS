@@ -8,10 +8,10 @@ app.use(cors())
 const port = 3007;
 // Создаем пулл соединений к базе данных
 const pool = new Pool({
-    user: "sandbox",
-    host: "rc1c-hah88ln56sag8lvm.mdb.yandexcloud.net",
-    databse: "users",
-    password: "sandbox-tages", 
+    user: "your_name",
+    host: "your_host",
+    database: "your_database",
+    password: "your_password", 
     port: 6432,
     ssl: {
         rejectUnauthorized: false
