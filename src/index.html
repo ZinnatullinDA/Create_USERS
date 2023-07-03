@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма и таблица</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="myForm">
+        
+            <input type="text" id="name" class="inputTexts" name="name" required placeholder="Имя"><br>
+            
+            
+            <input type="text" id="surname" class="inputTexts" name="surname" required placeholder="Фамилия"><br>
+            
+            
+            <input type="number" id="age" class="inputTexts" name="age" required placeholder="Возраст"><br>
+            
+            <button type="button"  class="buttonCreate"  onclick="createTable()">Создать</button>
+        </form>
+    
+        <table id="dataTable">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+    </div>
+    <script src="js/table.js"></script>
+    
+    
+</body>
+</html>

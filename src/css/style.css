@@ -1,0 +1,83 @@
+body {
+    margin: 60px auto;
+    text-align: center;
+}
+.container {
+    max-width: 700px;
+    min-height: 602px;
+    margin: 0 auto;
+    padding: 40px 15px;
+    border-radius: 10px;
+    
+}
+form {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.inputTexts{
+    margin-bottom: 3px;
+    width: 312px;
+    height: 41px;
+    background: #F3F3F3;
+    border-radius: 10px;
+    padding-left: 16px;
+    margin: 8px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #82858C;
+    border: none;
+}
+
+.buttonCreate{
+    margin-bottom: 33px;
+    margin-top: 12px;
+    width: 92px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #E30613;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+}
+
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.edit-icon:before {
+    content: "\270E";
+}
+
+.delete-icon:before {
+    content: "\2716";
+}
+
+.save-icon:before {
+    content: "\2714";
+}
+
+.icon-button {
+    margin: 0px 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
