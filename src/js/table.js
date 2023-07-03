@@ -68,39 +68,6 @@ function createTable() {
             throw new Error("Ошибка создания пользователя.");
         }
     })
-    /*.then(function(user) {     
-        // Создаем новую строку в таблице с данными пользователя
-        var row = table.insertRow();
-
-        var nameCell = row.insertCell(0);
-        nameCell.innerHTML = user.name;
-
-        var surnameCell = row.insertCell(1);
-        surnameCell.innerHTML = user.surname;
-
-        var ageCell = row.insertCell(2);
-        ageCell.innerHTML = user.age;
-
-        var actionsCell = row.insertCell(3);
-
-        var editButton = document.createElement("button");
-        editButton.innerHTML = '<img src="icons/edit.svg" alt="Edit" />';
-        editButton.className = "icon-button";
-        editButton.onclick = function() {
-            editRow(row, user.id);
-        };
-
-        var deleteButton = document.createElement("button");
-        deleteButton.innerHTML = '<img src="icons/delete.svg" alt="Delete" />';
-        deleteButton.className = "icon-button";
-        deleteButton.onclick = function() {
-            deleteRow(row, user.id);
-        };
-
-        actionsCell.appendChild(editButton);
-        actionsCell.appendChild(deleteButton);
-        clearForm();  
-    }) */
     .catch(function(error) {
         alert(error.message);
     });
